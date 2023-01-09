@@ -1,0 +1,133 @@
+/*rem for fonts, percentages for width and margins*/
+:root {
+    --dark: rgb(0,0,0);
+    --light: rgb(255,255,255);
+
+    --bg: rgb(10,10,10);
+}
+
+::selection {
+    color: var(--dark);
+    background: var(--light);
+}
+
+::-moz-selection {
+    color: var(--dark);
+    background: var(--light);
+}
+
+body {
+    margin: 0px;
+    background-color: var(--bg);
+    font-family: 'DM Sans', sans-serif;
+    color: var(--light);
+}
+
+.main {
+    width: 74%;
+    margin-left: 13%;
+    mix-blend-mode: difference;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 1.7rem;
+}
+
+.section {
+    border-top: 2px solid var(--light);
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: start;
+}
+
+.sidesection {
+    box-sizing: border-box;
+    border-left: 2px solid var(--light);
+    padding-left: 2rem;
+    margin-left: 2rem;
+}
+
+.accounts {
+    border-top: 2px solid var(--light);
+}
+
+.accountlink {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid var(--light);
+    padding: .4rem .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--light);
+    text-decoration: none;
+}
+
+.accountlink:hover {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.projects {
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+    border-top: 2px solid var(--light);
+    border-left: 10px solid var(--light);
+    border-right: 2px solid var(--light);
+}
+
+.projectlink {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid var(--light);
+    padding: 1.7rem 1.4rem;
+    color: var(--light);
+    text-decoration: none;
+}
+
+.projectlink:hover {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.heading1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: .7rem;
+}
+
+.heading2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: .7rem;
+}
+
+.content {
+    font-size: 1.4rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--dark);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--light);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--light);
+}
