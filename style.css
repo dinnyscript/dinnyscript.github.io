@@ -96,6 +96,10 @@ body {
     color: var(--dark);
 }
 
+.intextlink {
+    color: rgb(255, 255, 255);
+}
+
 .heading1 {
     font-size: 2.5rem;
     font-weight: bold;
